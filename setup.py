@@ -16,7 +16,7 @@ setup(
     url='https://github.com/Userzj123/P4UL',
     download_url='https://github.com/Userzj123/P4UL/releases',
     install_requires=['numpy', 'scipy', 'matplotlib', ],
-    packages=['pyLib',],
+    packages=['pyAnalyze', 'pyFoam', 'pyFootprint', 'pyLib', 'pyMisc', 'pyNetCDF', 'pyPlot', 'pyRaster', 'pyUtils'],
     scripts=glob.glob('**/*.py'),
     python_requires='>=3',
     zip_safe=False,
